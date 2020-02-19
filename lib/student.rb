@@ -1,5 +1,7 @@
 class Student < User
   
+  attr_accessor :knowladge
+  
   def initialize
     @knowladge = []
   end
